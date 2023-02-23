@@ -1,0 +1,70 @@
+.navbar{
+   padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+}
+.wrapper{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.wrapper a{
+    text-decoration: none;
+    color: #bbb;
+    font-family: open sans;
+}
+.wrapper a:hover{
+    text-decoration: underline;
+    font-weight: 400;
+    color:#000; 
+    transition: all .35s ease;
+}
+.loginform{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.userdetails{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.loginbtn{
+    border: none;
+    color:#000;
+    font-weight: bolder;
+    font-family: open sans;
+   border-radius: 4px;
+   width: 80px;
+display: flex;
+justify-content: center;
+padding: 6px 0;
+background-color: white;
+
+}
+.section label{
+   
+    font-family: open sans;
+    
+}
+.passwordErr{
+    color: #bbb;
+    display:block;
+    font-size: 10px;
+    
+}
+#active{
+background-color: #efefef;
+cursor: pointer;
+}
